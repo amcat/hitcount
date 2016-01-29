@@ -6,7 +6,7 @@ import org.elasticsearch.plugins.Plugin;
 public class HitcountSimilarityPlugin extends Plugin{
     @Override
     public String name() {
-        return "hitcount-similarity-plugin";
+        return "hitcount";
     }
 
     @Override
