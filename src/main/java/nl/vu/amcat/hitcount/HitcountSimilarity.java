@@ -16,10 +16,10 @@ public class HitcountSimilarity extends Similarity {
     }
 
     @Override
-    public SimWeight computeWeight(float v, CollectionStatistics collectionStatistics, TermStatistics... termStatisticses) {
+    public SimWeight computeWeight(CollectionStatistics collectionStats, TermStatistics... termStats) {
         return new Similarity.SimWeight(){
             public float getValueForNormalization(){
-                return 1.0f;
+                return 1.0f; 
             }
 
             public void normalize(float queryNorm, float topLevelBoost){
