@@ -14,4 +14,4 @@ The upgrade plugin will ask you to enter te new version number of elastic and up
 ./upgrade.sh
 ```
 
-Make sure to run `git diff`. If it seems alright build the packges and commit the changes.
+Make sure to run `git diff`. If it seems alright build the packges and commit the changes. After pushing, please create a new release on [github.com/amcat/hitcount/releases/new](https://github.com/amcat/hitcount/releases/new).
