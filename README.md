@@ -4,7 +4,7 @@ Hitcount plugin for elasticsearch 2.x
 # Building
 ```bash
 mvn clean package
-cp target/hitcount-2.3.4.jar hitcount.jar
+cp target/hitcount-2.4.4.jar hitcount.jar
 ```
 
 # Upgrading hitcount plugin for new elastic
