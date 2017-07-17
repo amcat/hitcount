@@ -6,7 +6,7 @@
 
     <groupId>nl.vu.amcat.hitcount</groupId>
     <artifactId>hitcount</artifactId>
-    <version>5.4.0</version>
+    <version>5.4.3</version>
     <build>
         <plugins>
             <plugin>
@@ -23,7 +23,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <elasticsearch.version>5.4.0</elasticsearch.version>
+        <elasticsearch.version>5.4.3</elasticsearch.version>
     </properties>
 
     <dependencies>
